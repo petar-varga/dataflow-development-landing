@@ -45,7 +45,10 @@ const FeaturesTiles = ({
 
   const sectionHeader = {
     title: 'Build up the whole picture',
-    paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.'
+    paragraphs: [
+      'People are frustrated by the software they use at work. The tools they need to do their jobs are either non-existent, old, or don\'t work well, which ultimately leads to a negative impact on the business.',
+      'Our goal for every project is to enrich your work and improve your productivity with software & apps that deliver better business results.'
+    ]
   };
 
   return (
@@ -71,10 +74,10 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
+                    Bussines Process Analysis
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                    Auditing your business processes and planning improvements with software-only changes: workflow automation, facilitated collaboration within internal and external teams, increased visibility into process performance, quick reporting, and more.
                     </p>
                 </div>
               </div>
@@ -93,11 +96,11 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
+                    Existing Software Analysis
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
-                    </p>
+                    Auditing the way your current software performs and meets your business needs, planning improvements to detected flaws and inefficiencies. Suggested action points may include software modernization, refactoring, migration.
+                  </p>
                 </div>
               </div>
             </div>
@@ -115,10 +118,10 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
+                    Market Research
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                    Analyzing the target market for your software product for an informed market entry. Planning and prioritizing product features, building multi-tenant architecture.
                     </p>
                 </div>
               </div>
@@ -137,11 +140,11 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
+                    Development Consulting
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
-                    </p>
+                    Working out software solutions to cover your business needs. Assembling a full project team to release the solution described in a functional specification.
+                  </p>
                 </div>
               </div>
             </div>
@@ -159,11 +162,11 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
-                    </h4>
+                    Extra Help 
+                  </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
-                    </p>
+                    Providing staff resources to complete the required skillset of any project role in your development team.
+                  </p>
                 </div>
               </div>
             </div>
@@ -181,11 +184,11 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
+                    Project Consulting
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
-                    </p>
+                    Setting up project processes and controls to keep project deliverables, schedules and costs on track. Enabling continuous software delivery to accelerate project development.
+                  </p>
                 </div>
               </div>
             </div>
